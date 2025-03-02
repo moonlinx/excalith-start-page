@@ -1,8 +1,8 @@
 {
-	"username": "Excalith",
-	"title": "Excalith Start Page",
+	"username": "Fox",
+	"title": "New-Tab",
 	"theme": {
-		"name": "Default",
+		"name": "catppuccin-mocha",
 		"backgroundColor": "#121317",
 		"windowColor": "#1e212b",
 		"textColor": "#e2e2e2",
@@ -46,7 +46,7 @@
 	"fetch": {
 		"timeFormat": "HH:mm",
 		"dateFormat": "DD/MM/YYYY",
-		"titleColor": "yellow",
+		"titleColor": "red",
 		"image": "assets/default-icon.svg",
 		"data": [
 			"Time: {time}",
@@ -66,7 +66,7 @@
 		"hoverColor": "magenta"
 	},
 	"search": {
-		"default": "https://google.com/search?q={}",
+		"default": "https://duckduckgo.com/?q={}",
 		"target": "_self",
 		"shortcutRegex": "(!?[A-Za-z0-9]+) (.*)",
 		"shortcuts": [
@@ -120,19 +120,14 @@
 				"align": "left",
 				"links": [
 					{
-						"name": "Portfolio",
-						"url": "https://cancellek.com",
-						"icon": "mdi:web"
+						"name": "Youtube",
+						"url": "https://www.youtube.com/",
+						"icon": "simple-icons:youtube"
 					},
 					{
-						"name": "Keybase",
-						"url": "https://keybase.io/",
-						"icon": "fa-brands:keybase"
-					},
-					{
-						"name": "GPT",
-						"url": "https://chat.openai.com/",
-						"icon": "simple-icons:openai"
+						"name": "Claude",
+						"url": "https://claude.ai/login",
+						"icon": "simple-icons:claude"
 					},
 					{
 						"name": "OCI",
@@ -174,19 +169,14 @@
 				"align": "left",
 				"links": [
 					{
-						"name": "Twitter",
-						"url": "https://twitter.com",
-						"icon": "mdi:twitter"
+						"name": "Reddit",
+						"url": "https://reddit.com",
+						"icon": "mdi:reddit"
 					},
 					{
 						"name": "Mastodon",
 						"url": "https://mastodon.social/",
 						"icon": "ri:mastodon-fill"
-					},
-					{
-						"name": "Reddit",
-						"url": "https://reddit.com",
-						"icon": "mdi:reddit"
 					},
 					{
 						"name": "Polywork",
